@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+</head>
+<body>
+    <div>
+        <canvas id="canvas_cities" width="600" height="600"></canvas>
+        <canvas id="canvas_route" width="600" height="600"></canvas>
+    </div>
+    <div id="settings">
+        <span>Cities number: </span>
+        <input id="cities" type="number" value=""> <br>
+        <span>Initial Temperature: </span>
+        <input id="temperature" type="number" value="0.1"> <br>
+        <span>Absolute Zero: </span>
+        <input id="abs_zero" type="number" value=".0001"> <br>
+        <span>Cooling Rate: </span>
+        <input id="cool_rate" type="number" value="0.99999"> <br>
+        <button id="solve">Solve</button>
+    </div>
+    <script src="city.js"></script>
+    <script src="route.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

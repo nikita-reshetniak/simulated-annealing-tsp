@@ -1,0 +1,13 @@
+/* html, body, div, canvas {
+    margin: 0;
+    padding: 0;
+} */
+
+canvas{
+    position: absolute;
+    border: 1px solid black;
+}
+
+#settings{
+    float: right;
+}
